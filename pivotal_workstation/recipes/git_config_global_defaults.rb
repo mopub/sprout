@@ -41,7 +41,6 @@ ds \"diff --staged\"
 fixup \"commit --fixup\"
 squash \"commit --squash\"
 unstage \"reset HEAD\"
-rum rebase master@{u}
 EOF
 
 aliases.split("\n").each do |alias_string|
