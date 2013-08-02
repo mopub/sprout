@@ -163,6 +163,7 @@ unless File.exists?(node['spf13-vim']['dir'])
 
       setup_vundle    "Now updating/installing plugins using Vundle"
 
+      clear
       msg             "\nThanks for installing $app_name."
       msg             "© `date +%Y` http://vim.spf13.com/"
     EOF
